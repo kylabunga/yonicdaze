@@ -1,0 +1,279 @@
+
+#home {
+	background-size: 100% 100%;
+	height: 100%;
+}
+body, #container { 
+	height: 100%;
+}
+
+body > #container { 
+	height: 100%; 
+	min-height: 100%;
+}
+#canvasName {
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 12;
+}
+#beam {
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 14;
+}
+
+#eye {
+	background-image: url('/assets/img/Eyewithbiggertext.svg');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	margin: 0 auto;
+	z-index: 13;
+	position: absolute;
+	top: 2%; left: 0; bottom: 0; right: 0;
+	width:45%;
+}
+
+#eye:hover {
+	background-image: url('/assets/img/ClosedEyeText.svg');
+}
+
+#content { 
+	padding-bottom: 25%; 
+}
+
+footer {
+ clear: both;
+ position: relative;
+ z-index: 13;
+ height: 6em;
+ width: 100%;
+ margin-top: -6em;
+ margin-bottom: 0%;
+ overflow: visible;
+}
+
+a {
+	height: 100%;
+	width: 100%;
+	display: block;
+	overflow: visible;
+}
+
+footer ul {
+	height: 100%;
+	overflow: visible;
+	margin-left: 6%;
+}
+
+footer li {
+	height: 95%;
+	width: 16.66%;
+	text-align: center;
+	margin: 0 auto;
+	position:relative;
+	float: left;
+	overflow: visible;
+}
+
+footer a {
+	background-size: auto 80%;
+	background-repeat: no-repeat;
+}
+
+/*.clippers {
+	padding-left: 1%;
+}*/
+
+.clippers a {
+	background-image: url('/assets/img/Clippersthick.svg');
+}
+.clippers a:hover {
+	background-image: url('/assets/img/Clippers.svg');
+}
+
+.icecream {
+	padding-left: 2%;
+}
+
+.icecream a {
+	background-image: url('/assets/img/Icecreamthick.svg');
+}
+.icecream a:hover {
+	background-image: url('/assets/img/Icecream.svg');
+}
+
+.mask {
+	padding-right: 0%;
+}
+
+.mask a {
+	background-image: url('/assets/img/Maskthick.svg');
+}
+.mask a:hover {
+	background-image: url("/assets/img/Mask.svg");
+}
+
+.cat {
+
+	padding-right: 2%;
+	padding-left: 1%;
+}
+
+.cat a{
+	background-image: url('/assets/img/Catthick.svg');
+}
+.cat a:hover {
+	background-image: url('/assets/img/Cat.svg');
+}
+
+.crystal {
+	padding-left: 4%;
+	padding-right: 3%;
+}
+
+.crystal a {
+	background-image: url('/assets/img/Crystalthick.svg');
+}
+.crystal a:hover {
+	background-image: url('/assets/img/Crystal.svg');
+}
+
+.claw {
+	padding-right: 6%;
+}
+
+.claw a {
+	background-image: url('/assets/img/Clawthick.svg');
+}
+.claw a:hover {
+	background-image: url('/assets/img/Claw.svg');
+}
+/* PROJECTS PAGE */
+
+html {
+	height: 100%;
+}
+.projectspage {
+	min-height: 100%;
+	position: relative;
+}
+.projectspage #canvasName {
+	height: 100%;
+}
+
+#works {
+	height: auto;
+	width: auto;
+	margin: 0 auto;
+	position: relative;
+	z-index: 13;
+	padding: 10%;
+	overflow: visible;
+}
+ #projectpost {
+ 	height: auto;
+	width: auto;
+ 	background: rgba(255, 255, 255, 0.1);
+	box-shadow: 5% 5% 5% 5% #000;
+	position: relative;
+	z-index: 14;
+	padding: 15px;
+}
+
+.post-container {
+ 	height: auto;
+ 	width: auto;
+ 	position: relative;
+ 	z-index: 15;
+ 	background: rgba(255, 255, 255, 0.3);
+ 	padding: 15px;
+}
+
+/*#postborder {
+	height: 100%;
+ 	width: 100%;
+ 	background-size: 100%;
+ 	position: relative;
+ 	z-index: 16;
+}*/
+.post-container ul {
+	height: auto;
+	width: auto;
+	overflow: visible;
+}
+.post-container li {
+	height: auto;
+	text-align: center;
+	margin: 0 auto;
+	position: relative;
+ 	overflow: visible;
+	padding: 10px;
+}
+.post-container img {
+	display:block;
+	padding:0;
+	width: 100%;
+}
+.opencollars {
+	width: 28%;
+	min-width: 50px;
+}
+.opencollars a {
+	background-repeat: no-repeat;
+	z-index: 20;
+	border-width: 5px;
+	border-color: rgba(255, 255, 255, 0.3);
+	border-style: solid;
+	/*webkit-box-shadow: -4px 4px 4px 0px rgba(255,255,255,1);
+	moz-box-shadow: -4px 4px 4px 0px rgba(255,255,255,1);
+	box-shadow: -4px 4px 4px 0px rgba(255,255,255,1);*/
+}
+.tarot {
+	width: 25%;
+	min-width: 40px;
+}
+.tarot a {
+	background-repeat: no-repeat;
+	z-index: 20;
+	border-width: 5px;
+	border-color: rgba(255, 255, 255, 0.3);
+	border-style: solid;
+}
+.waxwing {
+	width: 27%;
+	min-width: 75px;
+}
+.waxwing a {
+	background-repeat: no-repeat;
+	z-index: 20;
+	border-width: 5px;
+	border-color: rgba(255, 255, 255, 0.3);
+	border-style: solid;
+}
+.sloppylit {
+	width: 30%
+}
+.sloppylit a {
+	background-repeat: no-repeat;
+	z-index: 20;
+	border-width: 5px;
+	border-color: rgba(255, 255, 255, 0.3);
+	border-style: solid;
+}
+.qpocartnight {
+	width: 27%;
+	min-width:7 5px;
+}
+.qpocartnight a {
+	background-repeat: no-repeat;
+	z-index: 20;
+	border-width: 5px;
+	border-color: rgba(255, 255, 255, 0.3);
+	border-style: solid;
+}
