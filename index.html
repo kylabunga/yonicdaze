@@ -1,43 +1,66 @@
 <!DOCTYPE html>
 <html id= 'home'>
   <head>
+  	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  	<meta name="viewport" content="width=device-width, initial-scale=1"/>
    	<title>yo(n{ic_d}a)ze</title>
     <link href="/assets/css/reset.css" rel="stylesheet"/>
     <link href="/assets/css/global.css" rel="stylesheet"/>
-    <link href='http://fonts.googleapis.com/css?family=Megrim' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Megrim' rel='stylesheet' type='text/css'/>
     <script language='javascript' src='http://www.archive.org/download/Processing.js/processing-1.0.0.min.js'></script>
     <script type="text/javascript" src='/assets/javascript/processing_loader.js'></script>
+    <script type="text/javascript" src="assets/javascript/jquery-2.1.3.min.js"></script>
+    <script type="text/javascript" src="assets/javascript/jquery.js"></script>
+
+    	<!--[if lt IE 9]>
+	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
    </head>
    <body>
    		<canvas id="canvasName" width="662" height="300"></canvas>
    		<script type="application/processing" target="canvasName"> float bbycircle; float bbycircle2; float radius; float gray; void setup() {size(662, 300); bbycircle = 75; background(10);} void draw() {background(10); noStroke(); fill(gray); ellipse(bbycircle,bbycircle2, radius,radius); gray = random(20,255); bbycircle = random(662); bbycircle2 = random(300); radius = random(4);} </script>
    		<div id='container'>	
-   				<div id='eye'></div>
-   			<div id='content'>
-   			</div>		
+   				<div id='eye'></div>		
 		</div>
-		<!--<canvas id="beam">
-		</canvas>-->
 		<footer>
-			<ul>
+			<ul class="nav">
 				<li class='clippers'>
-					<a href="/who_am_i"></a> 
-					<figcaption>who am i</figcaption>
+					<a href="/who_am_i"> 
+						<img src= "assets/img/Clippersthick.svg" alt=""> 
+					</a> 
+					<p>who am i</p>
 				</li>
 				<li class='icecream'>
-					<a href="/words"></a> 
+					<a href="/words"> 
+						<img src= "assets/img/Icecreamthick.svg" alt="">
+						<p>words</p>
+					</a> 
 				</li>
 				<li class='mask'>
-					<a href="/projects"></a> 
+					<a href="/projects">
+						<img src= "assets/img/Maskthick.svg" alt="">
+						<p>projects</p>
+					</a> 
 				</li>
 				<li class='cat'>
-					<a href="weirdos"></a> 
+					<a href="weirdos">
+						<p>weirdos</p>
+						<p> </p>
+						<img src= "assets/img/Catthick.svg" alt="">
+					</a> 
 				</li>
 				<li class='crystal'>
-					<a href="/gems_(resources)"></a> 
+					<a href="/gems_(resources)">
+						<img src= "assets/img/Crystalthick.svg" alt="">
+						<p>gems</p>
+						<p>(resources)</p>
+					</a> 
 				</li>
 				<li class='claw'>
-					<a href="/merch"></a>
+					<a href="/merch">
+						<img src= "assets/img/Clawthick.svg" alt="">
+						<p>merch</p>
+					</a>
 				</li>
 			</ul>
 		</footer>
