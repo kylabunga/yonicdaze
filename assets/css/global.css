@@ -1,32 +1,26 @@
+@charset "UTF-8";
 
 #home {
 	background-size: 100% 100%;
 	height: 100%;
 }
-body, #container { 
+
+#home body {
 	height: 100%;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	position: relative;
+	padding-bottom: 20%;
+	display: block;
 }
 
-body > #container { 
-	height: 100%; 
-	min-height: 100%;
-}
-#canvasName {
+/* Eye */
+#home body, #container { 
 	height: 100%;
-	width: 100%;
-	position: absolute;
-	top: 0px;
-	left: 0px;
-	z-index: 12;
+	display: block;
 }
-#beam {
-	height: 100%;
-	width: 100%;
-	position: absolute;
-	top: 0px;
-	left: 0px;
-	z-index: 14;
-}
+
 
 #eye {
 	background-image: url('/assets/img/Eyewithbiggertext.svg');
@@ -37,243 +31,226 @@ body > #container {
 	position: absolute;
 	top: 2%; left: 0; bottom: 0; right: 0;
 	width:45%;
+		display: block;
 }
 
 #eye:hover {
 	background-image: url('/assets/img/ClosedEyeText.svg');
 }
 
-#content { 
-	padding-bottom: 25%; 
-}
+/* Eye */
 
-footer {
- clear: both;
- position: relative;
- z-index: 13;
- height: 6em;
- width: 100%;
- margin-top: -6em;
- margin-bottom: 0%;
- overflow: visible;
-}
-
-a {
+#canvasName {
 	height: 100%;
 	width: 100%;
-	display: block;
-	overflow: visible;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 12;
 }
 
-footer ul {
-	height: 100%;
-	overflow: visible;
-	margin-left: 6%;
+#home footer {
+ display: block;
+ position: absolute;
+ clear: both;
+ z-index: 13;
+ width: 100%;
+ margin-bottom: 5px;
+ padding-top: 35px;
+ bottom: 0;
 }
 
-footer li {
-	height: 95%;
-	width: 16.66%;
+#home footer ul {
+    bottom: 0px;
+    width: 100%
+}
+
+#home footer li {
+	display: inline-block;
 	text-align: center;
 	margin: 0 auto;
-	position:relative;
+	font-size: 18px;
 	float: left;
-	overflow: visible;
+	padding: 10px;
+	width: 16.66%;
 }
 
-footer a {
-	background-size: auto 80%;
-	background-repeat: no-repeat;
+#home a {
+	text-decoration: none !important;
 }
 
-/*.clippers {
-	padding-left: 1%;
-}*/
-
-.clippers a {
-	background-image: url('/assets/img/Clippersthick.svg');
-}
-.clippers a:hover {
-	background-image: url('/assets/img/Clippers.svg');
+#home p {
+	text-decoration: none;
+	color: gray;
+	font-family: Megrim;
+	border: none;
+	text-align: center;
 }
 
-.icecream {
-	padding-left: 2%;
+ul li img {
+	width: 50%;
 }
 
-.icecream a {
-	background-image: url('/assets/img/Icecreamthick.svg');
-}
-.icecream a:hover {
-	background-image: url('/assets/img/Icecream.svg');
+.crystal img {
+	width: 20%;
 }
 
-.mask {
-	padding-right: 0%;
+.icecream img {
+	width: 20%;
+}
+.cat p {
+	padding-bottom: 3px;
 }
 
-.mask a {
-	background-image: url('/assets/img/Maskthick.svg');
-}
-.mask a:hover {
-	background-image: url("/assets/img/Mask.svg");
-}
+/*projects page "mask"*/
 
-.cat {
-
-	padding-right: 2%;
-	padding-left: 1%;
-}
-
-.cat a{
-	background-image: url('/assets/img/Catthick.svg');
-}
-.cat a:hover {
-	background-image: url('/assets/img/Cat.svg');
-}
-
-.crystal {
-	padding-left: 4%;
-	padding-right: 3%;
-}
-
-.crystal a {
-	background-image: url('/assets/img/Crystalthick.svg');
-}
-.crystal a:hover {
-	background-image: url('/assets/img/Crystal.svg');
-}
-
-.claw {
-	padding-right: 6%;
-}
-
-.claw a {
-	background-image: url('/assets/img/Clawthick.svg');
-}
-.claw a:hover {
-	background-image: url('/assets/img/Claw.svg');
-}
-/* PROJECTS PAGE */
 
 html {
-	height: 100%;
-}
-.projectspage {
-	min-height: 100%;
-	position: relative;
-}
-.projectspage #canvasName {
+	background-size: 100% 100%;
 	height: 100%;
 }
 
-#works {
-	height: auto;
-	width: auto;
+.projects body {
+	height: 100%;
+	width: 100%;
+	padding: 0;
 	margin: 0 auto;
-	position: relative;
-	z-index: 13;
-	padding: 10%;
-	overflow: visible;
-}
- #projectpost {
- 	height: auto;
-	width: auto;
- 	background: rgba(255, 255, 255, 0.1);
-	box-shadow: 5% 5% 5% 5% #000;
+	font-size: 80px;
 	position: relative;
 	z-index: 14;
-	padding: 15px;
+	min-height: 100%;
 }
 
-.post-container {
- 	height: auto;
- 	width: auto;
- 	position: relative;
- 	z-index: 15;
- 	background: rgba(255, 255, 255, 0.3);
- 	padding: 15px;
-}
-
-/*#postborder {
+.projects #canvasName {
 	height: 100%;
- 	width: 100%;
- 	background-size: 100%;
- 	position: relative;
- 	z-index: 16;
-}*/
-.post-container ul {
-	height: auto;
-	width: auto;
-	overflow: visible;
+	width: 100%;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	bottom: 0px;
 }
-.post-container li {
-	height: auto;
+
+.projects ul {
+	list-style-type: none;
 	text-align: center;
 	margin: 0 auto;
-	position: relative;
- 	overflow: visible;
+	padding: 20px;
+	max-width: 1200px;
+	vertical-align: middle;
+	z-index: 15;
+
+}
+
+ .projects ul li {
+	display: inline-block;
 	padding: 10px;
+	background: ;
+	border: 1px solid #ddd;
+	font-size: 16px;
+	font-size: 1rem;
+	vertical-align: middle;
+	box-shadow: 0 0 5px #ddd;
+	z-index: 16;
+	margin: 0%;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
 }
-.post-container img {
-	display:block;
-	padding:0;
-	width: 100%;
+
+.projects ul li img {
+	width: 300px;
+	height: auto;
+	display: block;
+	z-index: 17;
 }
-.opencollars {
-	width: 28%;
-	min-width: 50px;
+
+
+/*words "iceceam cone*/
+
+.words body {
+    width: 70%;
+    margin: 100px auto;
+    font-size: 1.5em;
 }
-.opencollars a {
-	background-repeat: no-repeat;
+
+.words hr {
+	color:#000; 
+	border-color: #000;
+	width: 65%;
+	margin-top: 10px;
+	margin-bottom: 3px;
+}
+.words nav {
+    text-align: center;
+}
+
+.words h1 {
+	font-weight: lighter;
+    font-size: 4em;
+    margin-bottom: 0;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.words h2 {
+    font-weight: bold;
+    font-size: 3em;
+}
+
+.words h3 {
+    font-weight: bold;
+    font-size: 2em;
+}
+.words {
+    background-color: black;
+    margin-top: 7%;
+    text-rendering: optimizeLegibility;
+}
+
+.words nav {
+    width: 100%;
+}
+
+.projects h1 {
+    text-align: center;
+    color: #444;
+}
+.post {
+    padding: 20px;
+    margin-bottom: -50px;
+    position: relative;
+    word-wrap: break-word;
+    font-size: 18px;
+}
+.post-wrapper {
+    background:#fff;
+    border-radius:4px;
+    padding: 0;
+    position: relative;
+    box-shadow: 0 3px 7px rgba(0, 0, 0, 0.06);
+    background-clip: padding-box;
+    display: block;
+}
+
+.post h2 {
+    font-weight: bold;
+    margin: -5px 0 0.4em;
+    font-family: "ff-meta-serif-web-pro", Georgia, serif;
+    font-size: 18px;
+}
+
+.post h2 a {
+    color: #333;
+    text-decoration: none;
+    display: block;
+}
+.body-text p {
+    font-size: 12px;
+    font-family: Consolas, 'Liberation Mono', Menlo, Courier, monospace;
+    font-weight: normal;
+    color: #BD75B4;
+}
+
+object {
 	z-index: 20;
-	border-width: 5px;
-	border-color: rgba(255, 255, 255, 0.3);
-	border-style: solid;
-	/*webkit-box-shadow: -4px 4px 4px 0px rgba(255,255,255,1);
-	moz-box-shadow: -4px 4px 4px 0px rgba(255,255,255,1);
-	box-shadow: -4px 4px 4px 0px rgba(255,255,255,1);*/
 }
-.tarot {
-	width: 25%;
-	min-width: 40px;
-}
-.tarot a {
-	background-repeat: no-repeat;
-	z-index: 20;
-	border-width: 5px;
-	border-color: rgba(255, 255, 255, 0.3);
-	border-style: solid;
-}
-.waxwing {
-	width: 27%;
-	min-width: 75px;
-}
-.waxwing a {
-	background-repeat: no-repeat;
-	z-index: 20;
-	border-width: 5px;
-	border-color: rgba(255, 255, 255, 0.3);
-	border-style: solid;
-}
-.sloppylit {
-	width: 30%
-}
-.sloppylit a {
-	background-repeat: no-repeat;
-	z-index: 20;
-	border-width: 5px;
-	border-color: rgba(255, 255, 255, 0.3);
-	border-style: solid;
-}
-.qpocartnight {
-	width: 27%;
-	min-width:7 5px;
-}
-.qpocartnight a {
-	background-repeat: no-repeat;
-	z-index: 20;
-	border-width: 5px;
-	border-color: rgba(255, 255, 255, 0.3);
-	border-style: solid;
-}
+
