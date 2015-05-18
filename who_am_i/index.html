@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html id= "who_am_i">
+<html id= "bios">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
   	<meta name="viewport" content="width=device-width, initial-scale=1"/>
@@ -13,5 +13,16 @@
    <body>
    	<canvas id="canvasName" width="662" height="300"></canvas>
    		<script type="application/processing" target="canvasName"> float bbycircle; float bbycircle2; float radius; float gray; void setup() {size(662, 300); bbycircle = 75; background(10);} void draw() {background(10); noStroke(); fill(gray); ellipse(bbycircle,bbycircle2, radius,radius); gray = random(20,255); bbycircle = random(662); bbycircle2 = random(300); radius = random(4);} </script>
+   		<header class="menu">
+   			<p>There will be a menu up here.</p>
+   		</header>
+      <ul>
+        <li id="CybeeHilary">
+          <img src= "../assets/img/CybeeHilary.jpg" alt=""/> 
+        </li>
+        <li id="CocoEva">
+          <img src= "../assets/img/CocoEva.jpg" alt=""/>
+        </li>
+      </ul>
    </body>
 </html>

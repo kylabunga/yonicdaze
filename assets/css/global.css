@@ -46,14 +46,12 @@
 	position: absolute;
 	top: 0px;
 	left: 0px;
-	z-index: 12;
 }
 
 #home footer {
  display: block;
  position: absolute;
  clear: both;
- z-index: 13;
  width: 100%;
  margin-bottom: 5px;
  padding-top: 35px;
@@ -87,7 +85,6 @@
 	text-align: center;
 }
 
-ul li img {
 	width: 50%;
 }
 
@@ -165,7 +162,6 @@ html {
 }
 
 
-/*words "iceceam cone*/
 
 .words body {
     width: 70%;
@@ -254,3 +250,9 @@ object {
 	z-index: 20;
 }
 
+}
+
+#bios li {
+	display: inline-block;
+	text-align: center;
+	margin: 0 auto;
